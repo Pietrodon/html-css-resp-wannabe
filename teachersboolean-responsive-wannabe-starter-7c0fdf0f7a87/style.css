@@ -71,3 +71,28 @@ img {
 .clear {
   clear: both;
 }
+/* MEDIA QUERY */
+@media screen and (max-width: 420px){
+  .row{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+  }
+  img{
+    display: flex;
+    justify-content: center;
+  }
+  .left{
+    margin-left:100px;
+  }
+  .right{
+    margin-left: 100px;
+  }
+  h1{
+    margin-right: 300px;
+  }
+  .grey{
+    background-color: white;
+  }
+
+}
