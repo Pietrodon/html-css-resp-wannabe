@@ -73,6 +73,7 @@ img {
 }
 /* MEDIA QUERY */
 @media screen and (max-width: 420px){
+  
   .row{
     background-color: bisque;
     display: flex;
@@ -93,17 +94,33 @@ img {
   #steps .row>.left{
     margin-left: 190px;
     padding: 40px 0;
+    
   }
   #steps .row>.right{
     margin-left: 190px;
     padding: 40px 0;
+    
 
   }
   #steps .row>.central{
     margin-left: 190px;
     padding: 40px 0;
     
+    
   }
+  #steps .row{
+    background-color: white;
+  }
+  #why .row>.first{
+    margin-left: -145px;
+  }
+  #why .row>.second{
+    margin-left: -145px;
+  }
+  #why .row>.third{
+    margin-left: -145px;
+  }
+  
   
 
 }
