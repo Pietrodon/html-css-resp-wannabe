@@ -78,21 +78,32 @@ img {
     display: flex;
     flex-direction: column;
   }
-  img{
-    display: flex;
-    justify-content: center;
-  }
+  
   .left{
     margin-left:100px;
+    padding: 40px 0;
   }
   .right{
     margin-left: 100px;
+    padding: 40px 0;
   }
   h1{
     margin-right: 300px;
   }
-  .grey{
-    background-color: white;
+  #steps .row>.left{
+    margin-left: 190px;
+    padding: 40px 0;
   }
+  #steps .row>.right{
+    margin-left: 190px;
+    padding: 40px 0;
+
+  }
+  #steps .row>.central{
+    margin-left: 190px;
+    padding: 40px 0;
+    
+  }
+  
 
 }
