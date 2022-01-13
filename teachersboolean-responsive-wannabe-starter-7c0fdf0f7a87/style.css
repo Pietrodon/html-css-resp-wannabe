@@ -73,54 +73,33 @@ img {
 }
 /* MEDIA QUERY */
 @media screen and (max-width: 420px){
-  
   .row{
     background-color: bisque;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center
+    
   }
   
-  .left{
-    margin-left:100px;
+  .left{  
     padding: 40px 0;
   }
   .right{
-    margin-left: 100px;
     padding: 40px 0;
   }
-  h1{
-    margin-right: 300px;
-  }
+  
   #steps .row>.left{
-    margin-left: 190px;
     padding: 40px 0;
     
   }
   #steps .row>.right{
-    margin-left: 190px;
     padding: 40px 0;
-    
-
   }
   #steps .row>.central{
-    margin-left: 190px;
     padding: 40px 0;
-    
-    
   }
   #steps .row{
     background-color: white;
   }
-  #why .row>.first{
-    margin-left: -145px;
-  }
-  #why .row>.second{
-    margin-left: -145px;
-  }
-  #why .row>.third{
-    margin-left: -145px;
-  }
-  
-  
-
 }
